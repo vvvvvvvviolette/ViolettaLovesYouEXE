@@ -140,9 +140,11 @@
     <ResourceCompile Include="ViolettaLovesYou.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Media Include="chainsaw.wav" />
-    <Media Include="loud.wav" />
-    <Media Include="pig.wav" />
+    <Media Include="noise.wav" />
+    <Media Include="tone.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

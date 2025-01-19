@@ -30,14 +30,16 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Media Include="loud.wav">
+    <Media Include="noise.wav">
       <Filter>Resource Files</Filter>
     </Media>
-    <Media Include="chainsaw.wav">
+    <Media Include="tone.wav">
       <Filter>Resource Files</Filter>
     </Media>
-    <Media Include="pig.wav">
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
       <Filter>Resource Files</Filter>
-    </Media>
+    </Image>
   </ItemGroup>
 </Project>

@@ -53,7 +53,7 @@ int main()
 {
 	srand(time(NULL));
 
-	const int IDR_LIST[] = { IDR_WAVE1, IDR_WAVE2, IDR_WAVE3 };
+	const int IDR_LIST[] = { IDR_WAVE1, IDR_WAVE2 };
 
 	PlaySound(MAKEINTRESOURCE(
 		IDR_LIST[rand() % (sizeof(IDR_LIST) / sizeof(IDR_LIST[0]))]),
